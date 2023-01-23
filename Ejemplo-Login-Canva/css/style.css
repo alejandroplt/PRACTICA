@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Roboto:wght@100;300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background-image: url("https://static-cse.canva.com/blob/655177/createlogos1.jpg");
+    backdrop-filter: blur(5px);
+}
+
+
+.container{
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 700px;
+    box-shadow: 0 0 5px black;
+}
+
+.right-image{
+    width: 50%;
+}
+
+.right-image picture{
+    display: flex;
+}
+
+.right-image picture img{
+    width: 100%;
+    border-radius: 3px;
+}
+
+.left-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.caption{
+    font-size: 14px;
+    display: flex;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.buttons{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 85%;
+    padding: 25px;
+}
+
+.button-google{
+    background-color:#F2F3F5;
+    border: none;
+    border-radius: 3px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.button-google :hover{
+    background-color: #E1E4E7;
+    opacity: 0.75;
+}
+
+
+.button-google picture {
+    background-color: #F2F3F5;
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button-google picture img {
+    width: 75%;
+}
+
+.button-google  span {
+    display: flex;
+    padding: 9px 93px ;
+    font-weight: 800;
+    border-radius: 3px;
+}
+
+
+.button-facebook{
+    background-color:#F2F3F5;
+    border: none;
+    border-radius: 3px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.button-facebook :hover{
+    background-color: #E1E4E7;
+}
+
+.button-facebook picture {
+    background-color: #F2F3F5;
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button-facebook picture img {
+    width: 75%;
+}
+
+.button-facebook  span {
+    display: flex;
+    padding: 9px 85px ;
+    font-weight: 800;
+    border-radius: 3px;
+}
+
+.button-email{
+    background-color:#F2F3F5;
+    border: none;
+    border-radius: 3px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.button-email :hover{
+    background-color: #E1E4E7;
+}
+
+
+.button-email picture {
+    background-color: #F2F3F5;
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button-email picture img {
+    width: 75%;
+}
+
+.button-email span {
+    display: flex;
+    padding: 9px 89px ;
+    font-weight: 800;
+    border-radius: 3px;
+}
+
+.button-other{
+    background-color:white;
+    border: none;
+    border-radius: 3px;
+    height: 35px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.button-other:hover{
+    background-color: #F2F3F5;
+}
+
+.terms-conditions{
+    font-size: 12px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.register-schol{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 85%;
+    padding: 25px;
+}
+
+
+.email-school{
+    background-color:white;
+    border: none;
+    border-radius: 3px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.email-school:hover{
+    opacity: 0.75;
+}
+
+.email-school picture {
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.email-school picture img {
+    width: 80%;
+}
+
+.email-school  span {
+    display: flex;
+    text-align: left;
+    padding: 5%;
+    font-weight: 800;
+
+}

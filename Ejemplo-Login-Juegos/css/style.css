@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Roboto:wght@100;300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1055%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient1056)'%3e%3c/rect%3e%3cpath d='M387.1 545.52 a161.7 161.7 0 1 0 323.4 0 a161.7 161.7 0 1 0 -323.4 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1168.71 352.7 a146.12 146.12 0 1 0 292.24 0 a146.12 146.12 0 1 0 -292.24 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M95.8441090730586 493.4561172325342L145.93999467632102 631.5026359370542 230.16125093027676 534.6171635260386z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M273.20998010426865 17.48417160140545L253.51962585285136-83.81391943860129 111.41766641854991-3.629342541471999z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M433.3205250241373 492.4153092557316L446.89355094482914 602.9587344297241 605.922175745472 527.3274829616901z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1265.62 307.95 a144.69 144.69 0 1 0 289.38 0 a144.69 144.69 0 1 0 -289.38 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1128.97%2c176.82C1171.868%2c177.799%2c1212.153%2c154.408%2c1233.091%2c116.954C1253.558%2c80.342%2c1251.804%2c34.2%2c1228.005%2c-0.338C1206.791%2c-31.124%2c1166.347%2c-33.273%2c1128.97%2c-34.149C1089.234%2c-35.08%2c1043.37%2c-38.402%2c1021.556%2c-5.176C998.401%2c30.092%2c1011.325%2c76.047%2c1032.769%2c112.381C1053.795%2c148.006%2c1087.614%2c175.876%2c1128.97%2c176.82' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M967.22 394.46 a124.46 124.46 0 1 0 248.92 0 a124.46 124.46 0 1 0 -248.92 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M536.37 278.86 a178.62 178.62 0 1 0 357.24 0 a178.62 178.62 0 1 0 -357.24 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M549.1656231744482 386.8465861228775L580.9436868992713 249.20066976734196 443.29777054373574 217.4226060425189 411.5197068189127 355.0685223980545z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M288.05353347747615 37.72003249438822L305.7816677711338 138.8246290969679 375.5147458993825 82.35589584317209z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1287.7634557670629 88.0734870318592L1358.3071032471473 163.72228728051346 1363.412256015717 17.529839551774643z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1423.354845912983 302.349514999128L1450.6777992196703 240.98115710064033 1344.963785718595 230.68090608985315z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1055'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='139.29%25' x2='84.72%25' y2='-39.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1056'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(6%2c 6%2c 37%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.container{
+    background-color: #EEF0F9;
+    /*background-color: yellow;*/
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 850px;
+    height: 500px;
+    padding: 8px;
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgb(66, 37, 140);
+}
+
+.left-image{
+    /*background-color: yellowgreen;*/
+    width: 50%;
+}
+
+.image-center picture{
+    width: 425px;
+    height: 500px;
+    display: flex;
+}
+
+.image-center picture img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.right-content{
+    /*background-color: tomato;*/
+    border-radius: 30px;
+    width: 50%;
+}
+
+.right-content .register{
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 20px;
+    gap: 2px;
+}
+
+.right-content span a{
+    text-decoration: none;
+}
+
+.right-content span a:hover{
+    text-decoration: underline;
+}
+
+.right-center{
+    /*background-color: rgb(117, 117, 117);*/
+    margin: 20px 40px;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.right-center span{
+    font-size: 13px;
+}
+
+.right-center .forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 30px;
+    gap: 10px;
+}
+
+.right-center .forms input{
+    height: 35px;
+    border-radius: 5px;
+    border-style: none;
+    padding-left: 15px;
+}
+
+
+.right-center .forms input:focus{
+    outline: none;
+    padding-left: 15px;
+}
+
+.right-center .forms a{
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    text-decoration: none;
+}
+
+.right-center .forms a:hover{
+    text-decoration: underline;
+}
+
+.right-center .forms button{
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: #42258C;
+    color: white;
+    cursor: pointer;
+}
+
+.right-center .forms button:hover{
+    opacity: 0.75;
+}
+
+.separator{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 10px;
+    width: 100%;
+}
+
+.separator hr{
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.button-google{
+    width: 40px;
+    height: 40px;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+    background-color: #EEF0F9;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button-google:hover{
+    background-color: white;
+}
+
+.button-google picture{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+
+}
+
+.button-google picture img{
+    width: 120%;
+}
+
+
+.button-apple{
+    width: 40px;
+    height: 40px;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+    background-color: #EEF0F9;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button-apple:hover{
+    background-color: white;
+}
+
+.button-apple picture{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+
+}
+
+.button-apple picture img{
+    width: 120%;
+}
+
+.button-facebook{
+    width: 40px;
+    height: 40px;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+    background-color: #EEF0F9;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button-facebook:hover{
+    background-color: white;
+}
+
+.button-facebook picture{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+
+}
+
+.button-facebook picture img{
+    width: 120%;
+}
+
+
+
+
+

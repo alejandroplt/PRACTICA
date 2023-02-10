@@ -1,0 +1,8 @@
+body{
+    background: #FFE259;
+    background: linear-gradient(to right, #FFA751, #FFE259);
+}
+.bg{
+    background-image: url(https://thumbs.dreamstime.com/b/mascot-esport-personaje-logo-juegos-de-chaqueta-p%C3%BArpura-ninja-moderno-con-m%C3%A1scara-y-espada-logotipo-para-equipo-207280986.jpg);
+    background-position: center center;
+}

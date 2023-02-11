@@ -10,9 +10,6 @@ body{
     border-top-left-radius: 50px;
 }
 
-.login {
-    min-height: 100vh;
-}
 
 span,a{
     font-size: 14px;
@@ -36,7 +33,7 @@ span,a{
     font-size: 16px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 913px) {
     .cont{
         border-bottom-right-radius: 50px;
     }

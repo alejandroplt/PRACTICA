@@ -17,7 +17,7 @@ span,a{
 
 .separator{
     display: flex;
-    padding-top: 20px;
+    padding-top: 15px;
     gap: 20px;
     width: 100%;
 }
@@ -25,7 +25,7 @@ span,a{
 .separator hr{
     flex-grow: 1;
     border: none;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #000000;
 }
 
 .separator span{

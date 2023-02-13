@@ -12,6 +12,8 @@ function generarNuevoColor(){
     document.getElementById("sub").style.color= color;
     document.getElementById("buttn").style.backgroundColor= color;
     document.getElementById("buttn").style.border= color;
+    document.getElementById("buttn-2").style.backgroundColor= color;
+    document.getElementById("buttn-2").style.border= color;    
     document.getElementById("link").style.color= color;
 }
 $( document ).ready( function() {

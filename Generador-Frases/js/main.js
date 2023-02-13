@@ -19,7 +19,7 @@ $( document ).ready( function() {
         cache: false
     });
 
-    $.getJSON("http://api.forismatic.com/api/1.0/?method=getQuote&&format=jsonp&jsonp=?&lang=en", function(data) {
+    $.getJSON("https://api.forismatic.com/api/1.0/?method=getQuote&&format=jsonp&jsonp=?&lang=en", function(data) {
         $("#sp").html(data.quoteText);
         $("#sub").html(data.quoteAuthor);
     });

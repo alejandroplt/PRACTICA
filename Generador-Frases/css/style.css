@@ -1,0 +1,102 @@
+body{
+    background: #FAC62B;
+}
+
+.text::before{
+    content: '"';
+}
+
+.text::after{
+    content: '"';
+}
+
+.text-sub::before{
+    content: '-';
+}
+
+.text-sub::after{
+    content: '-';
+}
+
+.button{
+    font-size: 20px;
+    color: white;
+}
+
+.button:hover{
+    color: white;
+}
+
+
+span{
+    color: #FAC62B;
+    font-size: 20px;
+}
+
+a{
+    font-style: italic;
+    color: #FAC62B;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+@media (max-width: 768px) { 
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        margin: 30px;
+    }
+    span{
+        font-size: 16px;
+    }
+    .button{
+        font-size: 16px;
+        color: white;
+    }
+    a{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 769px) { 
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        margin: 30px;
+    }
+    span{
+        font-size: 16px;
+    }
+    .button{
+        font-size: 16px;
+        color: white;
+    }
+    a{
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        width: 50%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .container{
+        width: 40%;
+    }
+}

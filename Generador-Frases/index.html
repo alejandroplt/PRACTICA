@@ -38,16 +38,17 @@
                     <a href="http://www.facebook.com/share.php?u=https://plxtxs-alejandro.netlify.app/generador-frases/" target="_blank" class="buttons-social"  title="Share on Facebook">
                         <i class="bi bi-facebook" style="color: #3B5998;"></i>
                     </a>
-                    <a href="" class="buttons-social"  title="Share on Whatsapp">
+                    <a href="https://api.whatsapp.com/send?text=https://plxtxs-alejandro.netlify.app/generador-frases/" target="_blank" class="buttons-social"  title="Share on Whatsapp">
                         <i class="bi bi-whatsapp" style="color: #2BB741;"></i>
                     </a>
-                    <a href="" class="buttons-social"  title="Share Twitter">
+                    <a href="https://twitter.com/intent/tweet?url=https://plxtxs-alejandro.netlify.app/generador-frases/" target="_blank" class="buttons-social"  title="Share Twitter">
                         <i class="bi bi-twitter" style="color: #00ACEE;"></i>
                     </a>
-                    <a href="" class="buttons-social"  title="Share Instagram">
+                    <!--<a href="" class="buttons-social"  title="Share Instagram">
                         <i class="bi bi-instagram" style="color: #833AB4;"></i>
-                    </a>
+                    </a>-->
                 </div>
+                <label id="noneLabel" style="display:none;"></label>
             </div>
         </div>
     </div>
@@ -60,9 +61,10 @@
     if('share' in navigator){
         $button.addEventListener('click', share)
         function share(){
+            var textLabel = document.getElementById("noneLabel").innerHTML;
             navigator.share({
                 title:'Probando Share API',
-                text:'Texto',
+                text: textLabel,
                 url:'https://plxtxs-alejandro.netlify.app/generador-frases/',
             })
             .then(()=>{

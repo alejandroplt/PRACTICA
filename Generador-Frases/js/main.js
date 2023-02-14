@@ -23,9 +23,9 @@ $( document ).ready( function() {
 
     $.getJSON("https://api.forismatic.com/api/1.0/?method=getQuote&&format=jsonp&jsonp=?&lang=en", function(data) {
         $("#Phrase").html(data.quoteText);
-        $('#noneLabelPhrase').append(data.quoteText);
+        $('#noneLabelPhrase').html(data.quoteText);
         $("#Author").html(data.quoteAuthor);
-        $("#noneLabelAut").append(data.quoteAuthor);
+        $("#noneLabelAut").html(data.quoteAuthor);
     });
 } )
 
@@ -36,9 +36,9 @@ $("#buttonPhrase").on("click", function() {
 
     $.getJSON("https://api.forismatic.com/api/1.0/?method=getQuote&&format=jsonp&jsonp=?&lang=en", function(data) {
         $("#Phrase").html(data.quoteText);
-        $('#noneLabelPhrase').append(data.quoteText);
+        $('#noneLabelPhrase').html(data.quoteText);
         $("#Author").html(data.quoteAuthor);
-        $("#noneLabelAut").append(data.quoteAuthor);
+        $("#noneLabelAut").html(data.quoteAuthor);
     });
 });
 

@@ -30,7 +30,7 @@
                 </div>
                 <div class="mb-3 d-grid px-5 gap-3">
                     <button type="submit" class="btn btn-warning button" id="buttn" onclick="generarNuevoColor()">Generate Phrase</button>
-                    <button type="submit" class="btn btn-warning button" id="buttn-2" >Share</button>
+                    <button type="submit" class="btn btn-warning button" id="buttn-2" >Share Phrase</button>
                 </div>
                 <div class=" text-center gap-3 py-2 rounded-bottom-4" style="background-color: whitesmoke;">
                     <label  style="font-size: 12px;">Share page</label>
@@ -38,10 +38,10 @@
                     <a href="http://www.facebook.com/share.php?u=https://plxtxs-alejandro.netlify.app/generador-frases/" target="_blank" class="buttons-social"  title="Share on Facebook">
                         <i class="bi bi-facebook" style="color: #3B5998;"></i>
                     </a>
-                    <a href="https://api.whatsapp.com/send?text=https://plxtxs-alejandro.netlify.app/generador-frases/" target="_blank" class="buttons-social"  title="Share on Whatsapp">
+                    <a href="https://api.whatsapp.com/send?text= Hello, I invite you to visit my page https://plxtxs-alejandro.netlify.app/generador-frases/" target="_blank" class="buttons-social"  title="Share on Whatsapp">
                         <i class="bi bi-whatsapp" style="color: #2BB741;"></i>
                     </a>
-                    <a href="https://twitter.com/intent/tweet?url=https://plxtxs-alejandro.netlify.app/generador-frases/" target="_blank" class="buttons-social"  title="Share Twitter">
+                    <a href="https://twitter.com/intent/tweet?text=Hello, I invite you to visit my page&url=https://plxtxs-alejandro.netlify.app/generador-frases/" target="_blank" class="buttons-social"  title="Share Twitter">
                         <i class="bi bi-twitter" style="color: #00ACEE;"></i>
                     </a>
                     <!--<a href="" class="buttons-social"  title="Share Instagram">
@@ -49,6 +49,7 @@
                     </a>-->
                 </div>
                 <label id="noneLabel" style="display:none;"></label>
+                <label id="noneLabelAut" style="display:none;"></label>
             </div>
         </div>
     </div>
@@ -62,9 +63,11 @@
         $button.addEventListener('click', share)
         function share(){
             var textLabel = document.getElementById("noneLabel").innerHTML;
+            var textLabelAut = document.getElementById("noneLabel").innerHTML;
+            var textFinal = textLabel + "...." + "-"+textLabelAut+"-"+ "visit: ";
             navigator.share({
-                title:'Probando Share API',
-                text: textLabel,
+                title:'Random Phrases',
+                text: textFinal,
                 url:'https://plxtxs-alejandro.netlify.app/generador-frases/',
             })
             .then(()=>{

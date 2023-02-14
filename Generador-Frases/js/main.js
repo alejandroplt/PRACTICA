@@ -25,6 +25,7 @@ $( document ).ready( function() {
         $("#sp").html(data.quoteText);
         $('#noneLabel').append(data.quoteText);
         $("#sub").html(data.quoteAuthor);
+        $("#noneLabelAut").append(data.quoteAuthor);
     });
 } )
 
@@ -37,5 +38,6 @@ $("#buttn").on("click", function() {
         $("#sp").html(data.quoteText);
         $('#noneLabel').append(data.quoteText);
         $("#sub").html(data.quoteAuthor);
+        $("#noneLabelAut").append(data.quoteAuthor);
     });
 });

@@ -13,43 +13,43 @@
     <div class="container my-5 bg-white rounded-4 shadow p-0">
         <div class="row g-0">
             <div class="col">
-                <div class="rounded-top-4 px-5 py-2" style="background-color: whitesmoke;">
+                <div class="rounded-top-4 px-5 py-2 text-top-bottom">
                     <label>
                         <a href="https://github.com/alejandroplt" id="link" target="_blank">@AlejandroPlatas</a>
                     </label>
                 </div>
                 <div class="p-2 text-center px-5">
-                    <span class="text" id="sp" style="font-style: italic;">
+                    <span class="textPhrase" id="Phrase">
 
                     </span>
                 </div>
                 <div class="text-end py-4 pe-5">
-                    <span class="text-sub" id="sub">
+                    <span class="text-sub" id="Author">
 
                     </span>
                 </div>
                 <div class="mb-3 d-grid px-5 gap-3">
-                    <button type="submit" class="btn btn-warning button" id="buttn" onclick="generarNuevoColor()">Generate Phrase</button>
-                    <button type="submit" class="btn btn-warning button" id="buttn-2" >Share Phrase</button>
+                    <button type="submit" class="btn btn-warning button" id="buttonPhrase" onclick="generarNuevoColor()">Generate Phrase</button>
+                    <button type="submit" class="btn btn-warning button" id="buttnSharePhrase" >Share Phrase</button>
                 </div>
-                <div class=" text-center gap-3 py-2 rounded-bottom-4" style="background-color: whitesmoke;">
+                <div class=" text-center gap-3 py-2 rounded-bottom-4 text-top-bottom">
                     <label  style="font-size: 12px;">Share page</label>
                     <br>
                     <a href="http://www.facebook.com/share.php?u=https://plxtxs-alejandro.netlify.app/generador-frases/" target="_blank" class="buttons-social"  title="Share on Facebook">
-                        <i class="bi bi-facebook" style="color: #3B5998;"></i>
+                        <i class="bi bi-facebook"></i>
                     </a>
                     <a href="https://api.whatsapp.com/send?text= Hello, I invite you to visit my page https://plxtxs-alejandro.netlify.app/generador-frases/" target="_blank" class="buttons-social"  title="Share on Whatsapp">
-                        <i class="bi bi-whatsapp" style="color: #2BB741;"></i>
+                        <i class="bi bi-whatsapp"></i>
                     </a>
                     <a href="https://twitter.com/intent/tweet?text=Hello, I invite you to visit my page&url=https://plxtxs-alejandro.netlify.app/generador-frases/" target="_blank" class="buttons-social"  title="Share Twitter">
-                        <i class="bi bi-twitter" style="color: #00ACEE;"></i>
+                        <i class="bi bi-twitter"></i>
                     </a>
                     <!--<a href="" class="buttons-social"  title="Share Instagram">
                         <i class="bi bi-instagram" style="color: #833AB4;"></i>
                     </a>-->
                 </div>
-                <label id="noneLabel" style="display:none;"></label>
-                <label id="noneLabelAut" style="display:none;"></label>
+                <label id="noneLabelPhrase"></label>
+                <label id="noneLabelAut"></label>
             </div>
         </div>
     </div>
@@ -57,22 +57,4 @@
 <script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
 <script src="js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-<script>
-    const $button = document.querySelector('#buttn-2')
-    if('share' in navigator){
-        $button.addEventListener('click', share)
-        function share(){
-            var textLabel = document.getElementById("noneLabel").innerHTML;
-            var textLabelAut = document.getElementById("noneLabelAut").innerHTML;
-            var textFinal = textLabel + "...." + "-"+textLabelAut+"-" + " visit: ";
-            navigator.share({
-                title:'Random Phrases',
-                text: textFinal,
-                url:'https://plxtxs-alejandro.netlify.app/generador-frases/',
-            })
-        }
-    }else{
-        alert('Not available')
-    }
-</script>
 </html>

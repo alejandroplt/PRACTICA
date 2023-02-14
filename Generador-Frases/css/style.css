@@ -2,11 +2,19 @@ body{
     background: #FAC62B;
 }
 
-.text::before{
+.text-top-bottom{
+    background-color: whitesmoke;
+}
+
+.textPhrase{
+    font-style: italic;
+}
+
+.textPhrase::before{
     content: '"';
 }
 
-.text::after{
+.textPhrase::after{
     content: '"';
 }
 
@@ -27,7 +35,6 @@ body{
     color: white;
 }
 
-
 span{
     color: #FAC62B;
     font-size: 20px;
@@ -41,6 +48,22 @@ a{
 
 a:hover{
     opacity: 0.5;
+}
+
+.bi-facebook{
+    color: #3B5998;
+}
+
+.bi-whatsapp{
+    color: #2BB741;
+}
+
+.bi-twitter{
+    color: #00ACEE;
+}
+
+#noneLabelPhrase, #noneLabelAut{
+    display: none;
 }
 
 @media (max-width: 768px) { 
